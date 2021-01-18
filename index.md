@@ -22,7 +22,6 @@ It will tell you whether such decibel level is dangerous for you and what might 
 
 <p><img height="500px" src="app_screenshots/dec_info.jpg" /></p>
 <p><img height="500px" src="app_screenshots/dec_info_det_1.jpg" /></p>
-<p><img height="500px" src="app_screenshots/dec_info_det_2.jpg" /></p>
 
 ### Info about app
 You can also read a short information about how application works, what method of measurement it is using and what are it's limits.
