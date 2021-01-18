@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="MyCustomThemeOne" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@drawable/gradient_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:buttonTint">@android:color/white</item>
+    </style>
+</resources>

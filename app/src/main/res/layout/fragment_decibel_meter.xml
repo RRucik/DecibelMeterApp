@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        gauge:initialValue="40"
+        gauge:maxValue="100"
+        gauge:minValue="0"
+        gauge:totalNicks="100"
+        gauge:valuePerNick="1"
+        gauge:faceColor="@color/colorGaugeBackground"
+        gauge:scaleColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/soundLoudnessMaxTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/base_db"
+        android:textSize="32sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toRightOf="@+id/soundLoudnessTextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gauge" />
+
+    <TextView
+        android:id="@+id/soundLoudnessMaxLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decibel_max_text_label"
+        android:textSize="32sp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toRightOf="@+id/soundLoudnessTextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/soundLoudnessMaxTextView" />
+
+    <TextView
+        android:id="@+id/soundLoudnessMinTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/base_db"
+        android:textSize="32sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/soundLoudnessTextView"
+        app:layout_constraintTop_toBottomOf="@id/gauge" />
+
+    <TextView
+        android:id="@+id/soundLoudnessMinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decibel_min_text_label"
+        android:textSize="32sp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/soundLoudnessTextView"
+        app:layout_constraintBottom_toTopOf="@+id/soundLoudnessMinTextView" />
+
+    <TextView
+        android:id="@+id/soundLoudnessTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/base_db"
+        android:textSize="32sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gauge" />
+
+    <TextView
+        android:id="@+id/soundLoudnessLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decibel_text_label"
+        android:textSize="32sp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/soundLoudnessTextView" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_message"
+        android:textSize="32sp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/digital"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundLoudnessTextView" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gauge"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

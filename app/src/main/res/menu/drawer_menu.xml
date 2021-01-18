@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_decibel_meter"
+            android:icon="@drawable/ic_meter"
+            android:title="@string/decibel_meter"
+            />
+        <item
+            android:id="@+id/nav_decibel_info"
+            android:icon="@drawable/ic_decibel_info"
+            android:title="@string/decibel_info"/>
+        <item
+            android:id="@+id/nav_about_me"
+            android:icon="@drawable/ic_about_app"
+            android:title="@string/about_app"/>
+    </group>
+
+</menu>
