@@ -14,7 +14,7 @@ All values will be plotted on graph and displayed on gauge. Also, a short one li
 Application uses a good looking and user friendly menu that will allow you to switch between decibel meter, information about decibel levels and about app. 
 It is all made with usage of fragments in order to make app better and more modern.
 
-<img height="500px" src="/app_screenshots/dec_info.jpg" />
+<img height="500px" src="app_screenshots/dec_info.jpg" />
 
 ### Info about decibel levels
 You don't know what different decibel meter readings mean? Fear not, this app will allow you to read about decibels and their corresponding values. 
