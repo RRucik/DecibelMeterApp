@@ -7,7 +7,9 @@ App also allows you to read about different decibel values and how it works!
 Application uses a good looking and user friendly menu that will allow you to switch between decibel meter, information about decibel levels and about app. 
 It is all made with usage of fragments in order to make app better and more modern.
 
+
 <img height="500px" src="/app_screenshots/menu.jpg" />
+
 
 ### Decibel meter
 By turning app on or selecting decibel meter in apps menu, you can turn on decibel meter and start measuring sound around you. 
