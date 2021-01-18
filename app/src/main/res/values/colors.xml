@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorGradientBackgroundStart">#000000</color>
-    <color name="colorGradientBackgroundEnd">#130F40</color>
-    <color name="colorMenuSelectedItem">#338ff8</color>
-    <color name="colorGaugeBackground">#000000</color>
-    <color name="colorWhite">#FFFFFF</color>
-</resources>
