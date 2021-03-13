@@ -27,10 +27,3 @@ It will tell you whether such decibel level is dangerous for you and what might 
 You can also read a short information about how application works, what method of measurement it is using and what are it's limits.
 
 <p><img height="500px" src="app_screenshots/app_info.jpg" /></p>
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
